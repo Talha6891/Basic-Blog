@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    height: 100px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    left: 5%;
+    position: relative;
+    line-height: 70px;
+    color: red;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.dev_deg{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    position: relative;
+}
+
